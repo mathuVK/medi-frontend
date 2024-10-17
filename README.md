@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Online Medical Booking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Online Medical Booking System** is a computerized information system designed to streamline the process of booking doctor appointments. Patients can easily search for and book available doctors online, while hospitals and clinics can manage their bookings and patient details through the system. This project provides a seamless experience for both patients and healthcare providers.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Patient Registration & Login**: Patients can create an account and log in to book appointments.
+- **Doctor Search**: Search for doctors by specialty, location, and availability.
+- **Appointment Booking**: Patients can schedule appointments with selected doctors.
+- **Doctor Dashboard**: Doctors can view and manage their appointments.
+- **Hospital/Clinic Dashboard**: Hospitals can manage doctor listings and view appointments.
+- **Real-time Notifications**: Notifications for appointment confirmations and cancellations.
+- **Secure Payments**: Integration with secure payment gateways for appointment fees.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: ReactJS
+- **Backend**: Express, Node.js
+- **Database**: MySQL
+- **API Communication**: RESTful API
+- **Authentication**: JWT (JSON Web Tokens)
+- **Payment Integration**: Stripe 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+### Prerequisites
+- **Node.js** and **npm** installed.
+- **MySQL** database set up.
+- **ReactJS** for frontend development.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mathuvk/online-medical-booking-system.git
+   
